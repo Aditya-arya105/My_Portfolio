@@ -1,0 +1,290 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.navbar{
+    background-color: crimson;
+    color: #fff;
+}
+#nav{
+    font-size: 30px;
+    color: #fff;
+   
+   
+}
+.navbar-brand{
+    font-weight: 600;
+    
+}
+#sam{
+    /* color:#fff; */
+    color: #fff;
+    font-size: 17px;
+    /* margin-right: 40px; */
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+#sam:hover{
+    color:red;
+   
+   
+}
+.main{
+    /* background:url(image/back1.jpeg)no-repeat; */
+    background-color: #111;
+    color: #fff;
+   
+    background-size: cover;
+    height:100vh;
+}
+.main h3{
+    font-size: 30px;
+    font-weight: 500px;
+    margin-left: 10px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.main h2{
+    font-size: 60px;
+    font-weight: 800;
+    
+}
+.main p{
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    /* border-bottom: 3px solid rgb(233,20,109); */
+    /* width: 65%; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+}
+.main #hire-btn{
+    color: white;
+    border-radius: 17px;
+    
+
+}
+
+
+
+  #who-1 {
+    background-color: red;
+    width: 50px;
+  }
+  
+  #hh {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+
+  }
+  
+  #who-2 {
+    background-color: red;
+    width: 50px;
+  }
+  #con-div{
+    height: 100vh;
+    border: solid 2px black;
+  }
+
+
+
+
+#about {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 800;
+    /* height: 100vh; */
+    /* border: solid 2px red; */
+  }
+ 
+  #who {
+    /* border: solid 2px green; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  #who-1, #who-2 {
+    height: 3px;
+  }
+  
+  #who-1, #who-2 {
+    background-color: red;
+    width: 50px;
+  }
+  
+ #hh {
+    
+    font-weight: 600;
+    font-size: 20px;
+    color: red;
+   
+  }
+ 
+  #im-about{
+    width: 250px;
+    height: 320px;
+  }
+ 
+
+
+/* project css */
+
+
+
+
+#pro-main{
+    /* border: solid 2px red; */
+    /* display: flex; */
+    justify-content: center;
+    background-color: #111;
+    min-height: 60vh;  
+}
+#abov{
+    color: #fff;
+    
+}
+
+#employee{
+    text-align: center;
+
+}
+#e-commerce{
+    text-align: center;
+    
+}
+#ppp{
+    text-align: justify;
+    
+}
+
+#dd{
+    background-color: #fff;
+    min-height: 350px;
+   
+}
+
+
+
+
+
+/* my skill */
+
+
+
+.skills {
+    /* height: 100vh;  */
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #f8f9fa; 
+  }
+
+
+.line-background1{
+    background-color: #007bff;
+    height: 8px;
+    width: 90%;
+}
+.line-background2{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 70%;
+}
+.line-background3{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 60%;
+}
+.line-background4{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 60%;
+}
+.line-background5{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 70%;
+}
+.line-background6{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 70%;
+}
+.line-background7{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 5px;
+    width: 90%;
+}
+.line-background8{
+    background-color: #007bff;
+    /* border: solid 2px red; */
+    height: 8px;
+    width: 80%;
+}
+
+
+.bars .line {
+    height: 8px;
+    background: #e0e0e0;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-top: 5px;
+    position: relative;
+  }
+  
+  .bars .line::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #007bff;
+    width: 0;
+    animation: fillBar 1.5s forwards;
+  }
+  
+  /* Custom widths per skill */
+  /* .html::after { width: 90%; }
+  .css::after { width: 70%; }
+  .js::after { width: 60%; }
+  .bootstrap::after { width: 60%; }
+  .python::after { width: 70%; }
+  .mysql::after { width: 70%; }
+  .django::after { width: 50%; }
+  .github::after { width: 80%; } */
+  
+ #icon-con{
+    color: crimson;
+    font-size: 25px;
+ }
+
+
+/* footer section styling */
+
+footer {
+    background: #111;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+footer span a {
+    color: crimson;
+    text-decoration: none;
+}
+
+footer span a:hover {
+    text-decoration: underline;
+}
+
