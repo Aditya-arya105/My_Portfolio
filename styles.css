@@ -21,10 +21,9 @@ body{
     
 }
 #sam{
-    /* color:#fff; */
+   
     color: #fff;
     font-size: 17px;
-    /* margin-right: 40px; */
     font-weight: 600;
     cursor: pointer;
     text-decoration: none;
@@ -36,7 +35,7 @@ body{
    
 }
 .main{
-    /* background:url(image/back1.jpeg)no-repeat; */
+    
     background-color: #111;
     color: #fff;
    
@@ -47,7 +46,6 @@ body{
     font-size: 30px;
     font-weight: 500px;
     margin-left: 10px;
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .main h2{
     font-size: 60px;
@@ -58,9 +56,7 @@ body{
     font-size: 20px;
     text-transform: uppercase;
     line-height: 1;
-    /* border-bottom: 3px solid rgb(233,20,109); */
-    /* width: 65%; */
-    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+   
 }
 .main #hire-btn{
     color: white;
@@ -99,12 +95,9 @@ body{
 #about {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 800;
-    /* height: 100vh; */
-    /* border: solid 2px red; */
   }
  
   #who {
-    /* border: solid 2px green; */
     display: flex;
     justify-content: center;
   }
@@ -139,8 +132,6 @@ body{
 
 
 #pro-main{
-    /* border: solid 2px red; */
-    /* display: flex; */
     justify-content: center;
     background-color: #111;
     min-height: 60vh;  
@@ -178,7 +169,6 @@ body{
 
 
 .skills {
-    /* height: 100vh;  */
     padding-top: 80px;
     padding-bottom: 80px;
     background-color: #f8f9fa; 
@@ -192,43 +182,36 @@ body{
 }
 .line-background2{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 70%;
 }
 .line-background3{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 60%;
 }
 .line-background4{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 60%;
 }
 .line-background5{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 70%;
 }
 .line-background6{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 70%;
 }
 .line-background7{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 5px;
     width: 90%;
 }
 .line-background8{
     background-color: #007bff;
-    /* border: solid 2px red; */
     height: 8px;
     width: 80%;
 }
@@ -254,23 +237,13 @@ body{
     animation: fillBar 1.5s forwards;
   }
   
-  /* Custom widths per skill */
-  /* .html::after { width: 90%; }
-  .css::after { width: 70%; }
-  .js::after { width: 60%; }
-  .bootstrap::after { width: 60%; }
-  .python::after { width: 70%; }
-  .mysql::after { width: 70%; }
-  .django::after { width: 50%; }
-  .github::after { width: 80%; } */
+  
   
  #icon-con{
     color: crimson;
     font-size: 25px;
  }
 
-
-/* footer section styling */
 
 footer {
     background: #111;
